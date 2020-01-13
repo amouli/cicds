@@ -42,7 +42,7 @@
           <password>Mouli143@</password> 
           <applicationName>app-sample</applicationName>
           <environment>Sandbox</environment> 
-          <businessGroup>kelltontech</businessGroup>
+          
          
           <uri>https://anypoint.mulesoft.com</uri> 
           <workerType>Micro</workerType>
