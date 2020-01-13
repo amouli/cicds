@@ -41,7 +41,7 @@
         <configuration>
         <cloudHubDeployment>
           <deploymentType>cloudhub</deploymentType>
-          <muleVersion>3.9.1</muleVersion> 
+          <muleVersion>4.2.2</muleVersion> 
           <username>mouli9</username> 
           <password>Mouli143@</password> 
           <applicationName>app-sample</applicationName>
@@ -66,6 +66,34 @@
       </plugin>
 		</plugins>
 	</build>
+	<profiles><profile>
+	<id>standalone</id>
+	<build>
+		<plugins>
+			<plugin>
+				<groupId>org.mule.tools.maven</groupId>
+				<artifactId>mule-maven-plugin</artifactId>
+				<configuration>
+                  <standaloneDeployment>
+                    <muleVersion>4.2.2</muleVersion> 
+                    <muleHome>${mule.home}</muleHome> 
+                    <applicationName>app-sample</applicationName> 
+                  </standaloneDeployment>
+				</configuration>
+				<executions>
+					<execution>
+						<id>deploy</id>
+						<phase>deploy</phase>
+						<goals>
+							<goal>deploy</goal>
+						</goals>
+					</execution>
+				</executions>
+			</plugin>
+		</plugins>
+	</build>
+</profile>
+</profiles>
 
 	<dependencies>
         <dependency>
