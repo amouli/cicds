@@ -6,7 +6,7 @@
 	<groupId>com.mycompany</groupId>
 	<artifactId>cicd_integration</artifactId>
     <version>1.0.0-SNAPSHOT</version>
-    <packaging>cicd_integration</packaging>
+    <packaging>mule-application</packaging>
 
 	<name>cicd_integration</name>
 
@@ -43,8 +43,7 @@
           <password>Mouli143@</password> 
           <applicationName>app-sample</applicationName>
           <environment>Sandbox</environment> 
-          <region>us-east-1</region>
- <businessGroup>kelltontech</businessGroup>
+          
          
           <uri>https://anypoint.mulesoft.com</uri> 
           <workerType>Micro</workerType>
