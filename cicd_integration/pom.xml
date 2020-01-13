@@ -40,7 +40,7 @@
 		
         <configuration>
         <cloudHubDeployment>
-          <deploymentType>cloudhub</deploymentType>
+          
           <muleVersion>4.2.2</muleVersion> 
           <username>mouli9</username> 
           <password>Mouli143@</password> 
