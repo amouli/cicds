@@ -42,8 +42,8 @@
           <password>Mouli143@</password> 
           <applicationName>app-sample</applicationName>
           <environment>Sandbox</environment> 
-          <businessGroup>xxxxxxx</businessGroup>
-          <region>us-east-1</region>
+          <businessGroup>kelltontech</businessGroup>
+         
           <uri>https://anypoint.mulesoft.com</uri> 
           <workerType>Micro</workerType>
           <workers>1</workers>
